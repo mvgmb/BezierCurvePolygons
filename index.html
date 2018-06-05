@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background: #282A33;
+            }
+            .input {
+                background: #FFFFFF;
+            }
+            #container,
+                canvas {
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                }
+                .slidecontainer {
+                    width: 90%;
+                }
+                .slider {
+                    -webkit-appearance: none;
+                    width: 90%;
+                    height: 15px;
+                    border-radius: 5px;
+                    background: #d3d3d3;
+                    outline: none;
+                    opacity: 0.7;
+                    -webkit-transition: .2s;
+                    transition: opacity .2s;
+                }
+
+                .slider:hover {
+                    opacity: 1;
+                }
+
+                .slider::-webkit-slider-thumb {
+                    -webkit-appearance: none;
+                    appearance: none;
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    background: #4CAF50;
+                    cursor: pointer;
+                }
+        </style>
+    </head>
+    <body>
+        <h1 style="color:white">Projeto de PG - 2.19</h1>
+        <form id="form" style="color:#FFFFFF">
+            Iterations:
+            <input type="number" name="iterations" value='500'>
+            Number of Vertexes:
+            <input type="number" name="no_vertex" value='5'>
+            Radius:
+            <input type="number" name="radius" value='100'>
+            Speed Multiplier:
+            <input type="number" name="speed" value='5'>
+        </form>
+        <br>
+        <div class="slidecontainer">
+            <button id="btn">Play</button>   
+            <input type="range" min="0" max="100" value="50" class="slider" id="range">
+        </div>
+        <div id="container">
+            <canvas id="canvas"></canvas>
+        </div>
+        <script src="dc.js"></script>
+    </body>
+</html>
