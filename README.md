@@ -1,6 +1,8 @@
 # Projeto PG 2.19
 Transformação Interativa de Polígonos Controlada por uma Curva de Bézier
 
+Grupo - Mário Victor (mvgmb) e Matheus Borba (mlbas)
+
 Para adicionar polígonos basta apertar com o mouse na tela, sendo possível movimentar seus vértices segurando e arrastando com o mouse.
 
 
