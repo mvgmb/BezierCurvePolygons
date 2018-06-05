@@ -2,6 +2,7 @@
 Transformação Interativa de Polígonos Controlada por uma Curva de Bézier
 
 Para adicionar polígonos basta apertar com o mouse na tela, sendo possível movimentar seus vértices segurando e arrastando com o mouse.
+
 Cada botão no menu superior realiza o seguinte:
 (Iterations) - define a quantidade de iterações realizadas ao desenhar a Curva de Bézier;
 (Number of Vertexes) - define o polígono de entrada de acordo com a quantidade de vértices;
